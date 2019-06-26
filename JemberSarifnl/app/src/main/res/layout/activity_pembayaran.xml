@@ -159,7 +159,7 @@
             android:layout_marginStart="43dp"
             android:layout_marginLeft="42dp"
             android:layout_marginTop="41dp"
-            android:text="J&T "
+            android:text="JnT "
             android:textSize="22sp" />
 
         <RadioButton
