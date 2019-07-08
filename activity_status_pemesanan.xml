@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Status pembelian"
+        android:textSize="27sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="231dp">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_photo_camera_black_24dp" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="60dp"
+            android:text="Keripik Singkong"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="61dp" />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/judul"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="60dp"
+            android:text="Rp.10.000"
+            android:textSize="18sp"
+            android:layout_alignLeft="@+id/judul"
+            android:layout_marginLeft="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/harga"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="60dp"
+            android:text="Sudah Bayar"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="57dp" />
+
+        <TextView
+            android:layout_width="382dp"
+            android:layout_height="65dp"
+            android:layout_alignTop="@+id/harga"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="17dp"
+            android:text="Status Pemesanan : ON PROGRESS "
+            android:textSize="23sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp" />
+
+
+        <TextView
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/harga"
+            android:layout_alignLeft="@+id/harga"
+            android:layout_alignTop="@+id/harga"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginRight="85dp"
+            android:text="Resi : 030120212544 "
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
