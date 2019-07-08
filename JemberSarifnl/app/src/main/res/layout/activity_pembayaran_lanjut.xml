@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Tagihan"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp.10.000"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="370dp">
+
+        <TextView
+            android:layout_width="409dp"
+            android:layout_height="370dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="0dp"
+            android:text="Metode Pembayaran Transfer Pada Bank berikut :"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="68dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="52dp"
+            android:src="@drawable/bca"
+            android:id="@+id/logo_bca"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="11dp" />
+
+        <ImageView
+            android:id="@+id/logo_bri"
+            android:layout_width="91dp"
+            android:layout_height="61dp"
+            android:layout_alignStart="@+id/logo_bca"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-4dp"
+            android:layout_marginTop="129dp"
+            android:src="@drawable/bri1"
+            android:layout_alignLeft="@+id/logo_bca"
+            android:layout_marginLeft="-4dp" />
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+            android:layout_alignTop="@+id/logo_bri"
+            android:layout_marginStart="-77dp"
+            android:layout_marginTop="77dp"
+            android:layout_toEndOf="@+id/logo_bca"
+            android:src="@drawable/bni"
+            android:layout_marginLeft="-77dp"
+            android:layout_toRightOf="@+id/logo_bca" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/logo_bca"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="21dp"
+            android:layout_toRightOf="@+id/logo_bca"
+            android:text="1502542901"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/logo_bca"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="96dp"
+            android:layout_toRightOf="@+id/logo_bri"
+            android:text="1928762901"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/logo_bca"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="167dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="94dp"
+            android:layout_toEndOf="@+id/null"
+            android:layout_toRightOf="@+id/null"
+            android:text="1623542901"
+            android:textSize="25sp"
+            tools:ignore="UnknownId" />
+
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/logo_bca"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="256dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="94dp"
+            android:text="Atas nama Jember Sari"
+            android:textSize="30sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="43dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Kirim bukti transfer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+</LinearLayout>
