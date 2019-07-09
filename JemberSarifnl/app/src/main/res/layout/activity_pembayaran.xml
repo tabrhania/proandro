@@ -270,5 +270,6 @@
         android:gravity="center"
         android:text="Bayar"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:id="@+id/bayar_lanjut"/>
 </LinearLayout>

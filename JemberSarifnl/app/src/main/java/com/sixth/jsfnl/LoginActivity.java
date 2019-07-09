@@ -98,8 +98,6 @@ public class LoginActivity extends AppCompatActivity {
                                     sessionManager.createSession(name, email, id);
 
                                     Intent intent = new Intent(LoginActivity.this, BerandaActivity.class);
-//                                    intent.putExtra("name", name);
-//                                    intent.putExtra("email", email);
                                     startActivity(intent);
                                     finish();
 

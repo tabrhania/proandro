@@ -103,8 +103,6 @@
             android:layout_marginEnd="43dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="94dp"
-            android:layout_toEndOf="@+id/null"
-            android:layout_toRightOf="@+id/null"
             android:text="1623542901"
             android:textSize="25sp"
             tools:ignore="UnknownId" />
@@ -140,6 +138,7 @@
         android:layout_alignParentEnd="true"
         android:layout_gravity="right"
         android:layout_marginRight="15dp"
+        android:id="@+id/bukti"
         android:gravity="center"
         android:text="Kirim bukti transfer"
         android:layout_alignParentLeft="true"
